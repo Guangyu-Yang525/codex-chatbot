@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
 
   //fetch the data from server -> bot's response
 
-  const response = await fetch('http://localhost:5001', {
+  const response = await fetch('https://codex-chatbot.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
